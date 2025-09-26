@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(255, 255, 255), rgba(135, 239, 246, 1));
+
+}
+
+
+
+.container {
+
+    & .lado-esquerdo {
+        margin: 40px 80px 40px 80px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+    & h1 {
+        font-size: 20px;
+        margin: 40px 80px 40px 80px;
+
+    }
+
+    & nav {
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+        display: flex;
+        margin: 40px 80px 40px 80px;
+        font-weight: 400;
+        gap: 50px;
+
+
+
+    }
+
+    & a {
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+
+
+.content {
+
+
+    & h2 {
+        color: #ff2323;
+        font-weight: 600px;
+        font-size: 24px;
+        height: 36px;
+        width: 604px;
+
+    }
+
+    & h3 {
+        height: 120px;
+        width: 604px;
+        font-size: 40px;
+    }
+
+    & p {
+        height: 27px;
+        width: 604px;
+        font-size: 18px;
+
+    }
+
+}
+
+.btns {
+    display: flex;
+    gap: 16px;
+    font-weight: 700;
+    margin-top: 58px;
+
+
+    & .btn1 {
+        background-color: #4abbc2;
+        border-radius: 16px;
+        border: solid, #4abbc2 2px;
+        padding: 14px 20px 14px 20px;
+    }
+
+    & .btn2 {
+        color: #000;
+        border-radius: 16px;
+        border: solid, #4abbc2 2px;
+        padding: 14px 20px 14px 20px;
+    }
+
+    & a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    & a.a2 {
+        color: #4abbc2;
+    }
+
+}
+
+.lado-direito {
+    display: flex;
+    align-items: center;
+    margin: 40px 80px 40px 80px;
+    justify-content: flex-end;
+
+
+
+}
